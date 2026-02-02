@@ -1,36 +1,61 @@
 # Hey, I'm Mirrox 👋
+Full-stack Roblox developer specializing in **scalable, readable game systems** with 3+ years of production experience.
 
-Full-stack Roblox developer building **type-safe, scalable gameplay systems** and backend architecture.
+## 🛠️ Tech Stack
 
-## 🛠️ What I Work With
+**Languages**
+- **Luau** → Production game systems (Rojo workflow)
+- **TypeScript** → Type-safe development (roblox-ts + Flamework)
 
-**Core Development**
-- **Luau** → Production-grade game systems with Rojo workflow
-- **TypeScript** → Type-safe development via roblox-ts + Flamework
+**State Management**
+- Reflex (selectors, middleware)
+- Charm (atom-based reactive state)
+- Custom state machines
 
-**State & Data Management**
-- Reflex, Charm, ProfileService/Store, DocumentService
+**Data Persistence**
+- ProfileStore, DocumentService (primary)
+- ProfileService, DataStore2 (legacy support)
+- Raw DataStoreService
+- Schema validation: `t` library (Luau), Flamework guards (TS)
+- Semantic versioning & migrations
 
 **Networking**
-- Zap, Blink (Luau) | Tether, Flamework Networking (TS)
+- Blink, Zap (buffer serialization preferred)
+- Tether (automatic buffer packing)
+- Client prediction & server reconciliation
+- Latency compensation
 
-**UI & Tooling**
-- React, UI-Labs, Ripple
-- Package managers: Pesde, Wally
-- Linting/Formatting: Selene, Stylua, Darklua, Biome
+**UI**
+- React-lua (primary framework)
+- Ripple (`useSpring`, `useTween`)
+- UI-Labs + Storybook (component testing & development)
 
-**Architecture Patterns**
-- Clean dependency injection with Flamework
-- Immutable state management (Immut, Sift)
+**Architecture**
+- Flamework (DI, lifecycle, components, networking)
+- Jecs + Planck + Replecs (ECS with scheduling & replication)
+- Signal (sleitnick) for event systems
+- Janitor (resource cleanup)
 
-## 🎯 My Focus
+**Toolchain**
+- **Editor**: VSCode (Studio-free workflow)
+- **Rojo**: Fully managed (primary), partial management support
+- **Toolchain managers**: Rokit (current), Aftman (legacy)
+- **Package managers**: Pesde (current), Wally (legacy)
+- **Linting/Formatting**: 
+  - Luau: Selene, StyLua
+  - TypeScript: Biome (linter + formatter)
+- **Build**: Darklua (minification, transforms), Rojo
+- **Asset management**: Asphalt
+- **CI/CD**: GitHub Actions for deployment
+- **Git workflow**: Conventional Commits
 
-I prioritize **maintainability** and **developer experience**:
-- Type-safe APIs that catch bugs at compile time
-- Modular architectures that scale with team size
-- Modern tooling that speeds up iteration
+## 🎯 My Approach
+- **Readability over micro-optimization**: maintain custom style guide
+- **Security-first design**: systems built with client-server boundaries in mind
+- **Scalable architecture**: code that grows with team size
+- **Pragmatic tooling**: optimize when necessary, not prematurely
+- **VSCode-native development**: fully managed Rojo workflow
 
-## 📫 Let's Connect
-
-- 💼 [Portfolio](https://discord.gg/mUgPZHsWrk)
-- 💬 [Discord](https://discord.com/users/428541904796385280)
+## 📫 Contact
+- 💬 [Discord](https://discord.com/users/428541904796785280)
+- **Open to full-time game dev roles** - not taking commissions
