@@ -1,61 +1,22 @@
-# Hey, I'm Mirrox 👋
-Full-stack Roblox developer specializing in **scalable, readable game systems** with 3+ years of production experience.
+# Hey! 👋
 
-## 🛠️ Tech Stack
+I'm Mirrox, a self-taught Roblox developer focused on **clean, scalable game systems**.  
+I build Roblox games end-to-end.
 
-**Languages**
-- **Luau** → Production game systems (Rojo workflow)
-- **TypeScript** → Type-safe development (roblox-ts + Flamework)
+I write Luau, but I like TypeScript more.
 
-**State Management**
-- Reflex (selectors, middleware)
-- Charm (atom-based reactive state)
-- Custom state machines
+---
 
-**Data Persistence**
-- ProfileStore, DocumentService (primary)
-- ProfileService, DataStore2 (legacy support)
-- Raw DataStoreService
-- Schema validation: `t` library (Luau), Flamework guards (TS)
-- Semantic versioning & migrations
+![TypeScript](https://img.shields.io/badge/TypeScript-cba6f7?style=flat&logo=typescript&logoColor=1e1e2e)
+![Lua](https://img.shields.io/badge/Lua-cba6f7?style=flat&logo=lua&logoColor=1e1e2e)
+![React](https://img.shields.io/badge/React-cba6f7?style=flat&logo=react&logoColor=1e1e2e)
+![Git](https://img.shields.io/badge/Git-cba6f7?style=flat&logo=git&logoColor=1e1e2e)
+![Rojo](https://img.shields.io/badge/Rojo-cba6f7?style=flat&logo=roblox&logoColor=1e1e2e)
+![VSCode](https://img.shields.io/badge/VSCode-cba6f7?style=flat&logo=visualstudiocode&logoColor=1e1e2e)
 
-**Networking**
-- Blink, Zap (buffer serialization preferred)
-- Tether (automatic buffer packing)
-- Client prediction & server reconciliation
-- Latency compensation
+[![GitHub Streak](https://streak-stats.demolab.com?user=NotMirrox&theme=catppuccin-frappe&hide_border=true)](https://github.com/NotMirrox)
 
-**UI**
-- React-lua (primary framework)
-- Ripple (`useSpring`, `useTween`)
-- UI-Labs + Storybook (component testing & development)
+---
 
-**Architecture**
-- Flamework (DI, lifecycle, components, networking)
-- Jecs + Planck + Replecs (ECS with scheduling & replication)
-- Signal (sleitnick) for event systems
-- Janitor (resource cleanup)
-
-**Toolchain**
-- **Editor**: VSCode (Studio-free workflow)
-- **Rojo**: Fully managed (primary), partial management support
-- **Toolchain managers**: Rokit (current), Aftman (legacy)
-- **Package managers**: Pesde (current), Wally (legacy)
-- **Linting/Formatting**: 
-  - Luau: Selene, StyLua
-  - TypeScript: Biome (linter + formatter)
-- **Build**: Darklua (minification, transforms), Rojo
-- **Asset management**: Asphalt
-- **CI/CD**: GitHub Actions for deployment
-- **Git workflow**: Conventional Commits
-
-## 🎯 My Approach
-- **Readability over micro-optimization**: maintain custom style guide
-- **Security-first design**: systems built with client-server boundaries in mind
-- **Scalable architecture**: code that grows with team size
-- **Pragmatic tooling**: optimize when necessary, not prematurely
-- **VSCode-native development**: fully managed Rojo workflow
-
-## 📫 Contact
-- 💬 [Discord](https://discord.com/users/428541904796785280)
-- **Open to full-time game dev roles** - not taking commissions
+[![Discord](https://img.shields.io/badge/Discord-cba6f7?style=flat&logo=discord&logoColor=1e1e2e)](https://discord.com/users/428541904796785280)
+![Open to Work](https://img.shields.io/badge/Open%20to%20Work-a6e3a1?style=flat&logoColor=1e1e2e)
